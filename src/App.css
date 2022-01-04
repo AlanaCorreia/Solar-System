@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  background-image: url(./images/background.png);
+  color: white;
+}
+
+.System {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

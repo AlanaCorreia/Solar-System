@@ -2,11 +2,12 @@ import { React, Component } from 'react';
 import Title from './Title';
 import MissionCard from './MissionCard';
 import missions from '../data/missions';
+import '../Missions.css';
 
 class Missions extends Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div data-testid="missions" className="Missions">
         <Title headline="Missões" />
         {missions.map((mission) => (
           <MissionCard

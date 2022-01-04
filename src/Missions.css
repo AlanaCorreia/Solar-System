@@ -1,0 +1,14 @@
+.Missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px 10% auto;
+}
+
+.Cards {
+  margin: 15px ;
+  padding: 18px;
+  border: solid 1px white;
+  border-radius: 6px;
+  font-size: 20px;
+}
